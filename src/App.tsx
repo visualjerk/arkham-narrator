@@ -45,7 +45,7 @@ function App() {
       <div className="grid gap-4">
         <div className="p-4 bg-stone-900 rounded-lg">
           <h2 className="mb-2 text-2xl text-stone-200">{storyNode.title}</h2>
-          <StoryAudio storyNode={storyNode} />
+          <StoryAudio storyNode={storyNode} key={storyNode.title} />
         </div>
         {storyNode.choices != null && (
           <div className="grid gap-2">

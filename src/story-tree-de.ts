@@ -26,10 +26,6 @@ export const STORY_TREE_DE: StoryNode[] = [
         title: 'Auflösung 2',
         audioFile: 'ndz-teil1-a2',
       },
-      {
-        title: 'Auflösung 3',
-        audioFile: 'ndz-teil1-a3',
-      },
     ],
   },
 ]
