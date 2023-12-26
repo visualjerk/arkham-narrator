@@ -58,7 +58,7 @@ jobs:
       - name: Install dependencies
         run: pnpm i
       - name: Build
-        run: pnpm build
+        run: pnpm build --base "/arkham-narrator/""
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
